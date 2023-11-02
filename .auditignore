@@ -1,0 +1,6 @@
+# This file serves as a mechanism denoting to security and scanning functions what should be ignored as
+# likely false positives. Comments serve to pre-empt a dialogue with security... should one be needed
+
+[filenames]
+*.html
+*.txt
