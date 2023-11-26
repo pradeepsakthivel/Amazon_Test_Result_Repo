@@ -35,7 +35,7 @@
 <a href="#"><span class="badge badge-primary">Testcases Execution Report</span></a>
 </li>
 <li class="m-r-10">
-<a href="#"><span class="badge badge-primary">Nov 26, 2023 11:02:08 AM</span></a>
+<a href="#"><span class="badge badge-primary">Nov 26, 2023 01:37:18 PM</span></a>
 </li>
 </ul>
 </div>
@@ -66,13 +66,13 @@
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Started</p>
-<h3>Nov 26, 2023 11:02:08 AM</h3>
+<h3>Nov 26, 2023 01:37:18 PM</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Ended</p>
-<h3>Nov 26, 2023 11:18:24 AM</h3>
+<h3>Nov 26, 2023 01:46:08 PM</h3>
 </div></div>
 </div>
 <div class="col-md-3">
@@ -123,7 +123,7 @@
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='100%'><b>3</b> events passed</small></div>
+<div><small data-tooltip='100%'><b>6</b> events passed</small></div>
 <div>
 <small data-tooltip='0%'><b>0</b> events failed,
 <b data-tooltip='%'>0</b> others
@@ -142,7 +142,7 @@
 </div></div>
 <script>
 var timeline = {
-"Login to Amazon Website":0.01,"Logout from Amazon Website":0.003
+"Login to Amazon Website":46.052,"Logout from Amazon Website":10.519
 };
 </script>
 <div class="row">
@@ -185,7 +185,7 @@ warningGrandChild: 0,
 skipGrandChild: 0,
 infoGrandChild: 0,
 eventsCount: 5,
-passEvents: 3,
+passEvents: 6,
 failEvents: 0,
 warningEvents: 0,
 skipEvents: 0,
@@ -222,7 +222,7 @@ infoEvents: 0
           <div class="test-detail">
             <p class="name">Login to Amazon Website</p>
             <p class="text-sm">
-              <span>11:18:24 AM</span> / <span>00:00:00:010</span>
+              <span>13:45:12 PM</span> / <span>00:00:46:052</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -231,9 +231,9 @@ infoEvents: 0
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-pass">Login to Amazon Website</h5>
-<span class='badge badge-success'>11.26.2023 11:18:24</span>
-<span class='badge badge-danger'>11.26.2023 11:18:24</span>
-<span class='badge badge-default'>00:00:00:010</span>
+<span class='badge badge-success'>11.26.2023 13:45:12</span>
+<span class='badge badge-danger'>11.26.2023 13:45:58</span>
+<span class='badge badge-default'>00:00:46:052</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
 </div>
 <div class="m-t-15"><span class="badge badge-pill badge-default">AmazonLoginTest</span></div>
@@ -244,14 +244,21 @@ infoEvents: 0
   <tbody>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:18:24 AM</td>
+        <td>1:45:12 PM</td>
         <td>
           Logging into the application as amazon user
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:18:24 AM</td>
+        <td>1:45:58 PM</td>
+        <td>
+          Navigated to Home page, Url Assertion - PASS
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:45:58 PM</td>
         <td>
           <span class='badge white-text green'>AmazonLoginTest.loginUser PASSED </span>
         </td>
@@ -268,7 +275,7 @@ infoEvents: 0
           <div class="test-detail">
             <p class="name">Logout from Amazon Website</p>
             <p class="text-sm">
-              <span>11:18:24 AM</span> / <span>00:00:00:003</span>
+              <span>13:45:58 PM</span> / <span>00:00:10:519</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -277,9 +284,9 @@ infoEvents: 0
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-pass">Logout from Amazon Website</h5>
-<span class='badge badge-success'>11.26.2023 11:18:24</span>
-<span class='badge badge-danger'>11.26.2023 11:18:24</span>
-<span class='badge badge-default'>00:00:00:003</span>
+<span class='badge badge-success'>11.26.2023 13:45:58</span>
+<span class='badge badge-danger'>11.26.2023 13:46:08</span>
+<span class='badge badge-default'>00:00:10:519</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=2</span>
 </div>
 <div class="m-t-15"><span class="badge badge-pill badge-default">AmazonLoginTest</span></div>
@@ -290,7 +297,21 @@ infoEvents: 0
   <tbody>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:18:24 AM</td>
+        <td>1:46:08 PM</td>
+        <td>
+          Logout from the application - PASS
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:46:08 PM</td>
+        <td>
+          Closing the browser - PASS
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:46:08 PM</td>
         <td>
           <span class='badge white-text green'>AmazonLoginTest.logoutUser PASSED </span>
         </td>
@@ -341,14 +362,14 @@ infoEvents: 0
 <tbody>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>11:18:24 AM</td>
+<td>13:45:12 PM</td>
 <td>
 <a href="#" class="linked" test-id='1' id='1'>Login to Amazon Website</a>
 </td>
 </tr>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>11:18:24 AM</td>
+<td>13:45:58 PM</td>
 <td>
 <a href="#" class="linked" test-id='2' id='2'>Logout from Amazon Website</a>
 </td>
